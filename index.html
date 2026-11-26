@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alvani Alves Santana | Desenvolvedora Full Stack</title>
+  <meta name="description" content="Portfólio de Alvani Alves Santana: desenvolvedora full stack, do front-end ao back-end." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600;1,700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="nav" id="nav">
+    <a href="#inicio" class="brand">
+      <span class="spark spark-gold" aria-hidden="true"></span>
+      <span class="brand-name">Alvani Alves<br />Santana</span>
+    </a>
+
+    <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="menu" id="menu">
+      <a href="#inicio" class="active">Início</a>
+      <a href="#sobre">Sobre Mim</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#servicos">Projetos</a>
+      <a href="#contato">Contato</a>
+      <a href="#contato" class="btn-outline">Vamos Conversar!</a>
+    </nav>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="inicio">
+    <i class="deco moon moon-tl"></i>
+    <i class="deco ring ring-tr"></i>
+    <i class="deco ring ring-br"></i>
+    <i class="star s1" aria-hidden="true"></i>
+    <i class="star s2" aria-hidden="true"></i>
+    <i class="star s3 pink" aria-hidden="true"></i>
+    <i class="star s4" aria-hidden="true"></i>
+    <i class="star s5 pink" aria-hidden="true"></i>
+    <i class="star s6" aria-hidden="true"></i>
+
+    <div class="hero-img">
+      <img src="kathleen.png" alt="Ilustração de Alvani Alves Santana com cabelo cacheado, apoiada em um notebook roxo" />
+    </div>
+
+    <div class="hero-text">
+      <span class="pill">Olá, eu sou a</span>
+      <h1>Alvani Alves <span class="line2">Santana <i class="spark spark-white" aria-hidden="true"></i></span></h1>
+      <p class="roles">Desenvolvedora <b>•</b> Full Stack <b>•</b> Criativa</p>
+      <p class="lead">Transformando ideias em aplicações completas, do front-end<br />ao back-end, com criatividade, tecnologia e muito propósito.</p>
+
+      <svg class="heart-line" viewBox="0 0 330 30" aria-hidden="true">
+        <path d="M0 22 C50 14 100 20 140 16" fill="none" stroke="#f0b94a" stroke-width="1.6" stroke-linecap="round"/>
+        <path d="M190 16 C230 20 280 14 330 22" fill="none" stroke="#f0b94a" stroke-width="1.6" stroke-linecap="round"/>
+        <path d="M165 26 C150 14 148 6 156 5 C161 4 165 8 165 10 C165 8 169 4 174 5 C182 6 180 14 165 26Z" fill="none" stroke="#f0b94a" stroke-width="1.8" stroke-linejoin="round"/>
+      </svg>
+
+      <a href="#servicos" class="btn-gold">Conheça meu trabalho
+        <svg viewBox="0 0 24 24" width="16" height="16"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ SOBRE MIM ============ -->
+  <main class="cream">
+    <section class="about reveal" id="sobre">
+      <div class="about-text">
+        <h2 class="title"><i class="star-solid" aria-hidden="true"></i> Sobre Mim</h2>
+        <p>
+          Sou uma menina alegre, divertida e que ama viver intensamente cada momento da vida.
+          Gosto de aproveitar as coisas simples, criar boas memórias, dar risada e estar perto de pessoas que me fazem bem.
+          Amo minha liberdade, conhecer lugares novos, viajar e sentir aquela sensação de que o mundo é enorme e ainda há muito para viver.
+        </p>
+        <p>
+          Entre meus hobbies, gosto de sair para fazer compras com minhas amigas, passear pelo shopping, ir à praia, conhecer lugares diferentes e aproveitar a vida.
+          Sou apaixonada pela sensação de liberdade, por viver novas experiências e por fazer minhas próprias escolhas.
+        </p>
+        <p>
+          Atualmente, estou cursando Análise e Desenvolvimento de Sistemas (ADS), uma área pela qual venho me interessando cada vez mais.
+          Estou gostando muito do curso, quero continuar evoluindo, aprender coisas novas, me formar e construir minha carreira como desenvolvedora full stack.
+          Sou alguém que sonha, que deseja crescer, conquistar minhas coisas, conhecer o mundo e, acima de tudo, viver uma vida que faça sentido para mim.
+        </p>
+        <p class="signature">Sonhe. Crie. Realize. <svg viewBox="0 0 24 24" width="34" height="34"><path d="M12 21C5 15 3 11 3 8a4.5 4.5 0 0 1 9-1.5A4.5 4.5 0 0 1 21 8c0 3-2 7-9 13z" fill="none" stroke="#3d1457" stroke-width="1.6" stroke-linejoin="round"/></svg></p>
+      </div>
+
+      <ul class="about-info">
+        <li>
+          <span class="icon-circle">
+            <svg viewBox="0 0 24 24" width="26" height="26"><path d="M12 4 2 9l10 5 10-5-10-5z M6 11.5V16c0 1.5 3 3 6 3s6-1.5 6-3v-4.5" fill="none" stroke="#fff" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg>
+          </span>
+          <div><h3>Formação</h3><p>Análise e Desenvolvimento de Sistemas – ADS (em andamento)</p></div>
+        </li>
+        <li>
+          <span class="icon-circle">
+            <svg viewBox="0 0 24 24" width="26" height="26"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z" fill="none" stroke="#fff" stroke-width="1.8" stroke-linejoin="round"/><circle cx="12" cy="9.5" r="2.5" fill="none" stroke="#fff" stroke-width="1.8"/></svg>
+          </span>
+          <div><h3>Localização</h3><p>Brasília – DF</p></div>
+        </li>
+        <li>
+          <span class="icon-circle">
+            <svg viewBox="0 0 24 24" width="26" height="26"><path d="M12 20.5C5.5 15 3.5 11.5 3.5 8.8a4.3 4.3 0 0 1 8.5-1 4.3 4.3 0 0 1 8.5 1c0 2.7-2 6.2-8.5 11.7z" fill="none" stroke="#fff" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          </span>
+          <div><h3>Interesses</h3><p>Tecnologia, viagens, música, arte e criatividade</p></div>
+        </li>
+        <i class="star-big sb1" aria-hidden="true"></i>
+        <i class="star-big sb2" aria-hidden="true"></i>
+        <i class="deco ring ring-about"></i>
+      </ul>
+    </section>
+
+    <!-- ============ HABILIDADES ============ -->
+    <section class="skills reveal" id="habilidades">
+      <div class="skills-intro">
+        <h2 class="title light"><i class="star-solid" aria-hidden="true"></i> Habilidades</h2>
+        <p>Ferramentas e conhecimentos<br />que me acompanham nessa<br />jornada:</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill"><span class="tile"><svg viewBox="0 0 48 48"><path d="M24 4c-8 0-8 3-8 6v5h9v2H12c-4 0-7 3-7 9s3 9 6 9h4v-6c0-3 3-6 6-6h9c3 0 5-2 5-5v-9c0-4-4-5-11-5z" fill="#3776ab"/><path d="M24 44c8 0 8-3 8-6v-5h-9v-2h13c4 0 7-3 7-9s-3-9-6-9h-4v6c0 3-3 6-6 6h-9c-3 0-5 2-5 5v9c0 4 4 5 11 5z" fill="#ffd43b"/><circle cx="19" cy="10" r="1.6" fill="#fff"/><circle cx="29" cy="38" r="1.6" fill="#fff"/></svg></span>Python</div>
+        <div class="skill"><span class="tile"><svg viewBox="0 0 48 48"><polygon points="24,3 42,13.500 42,34.500 24,45 6,34.500 6,13.500" fill="#00599c"/><text x="24" y="30" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="15" fill="#fff">C++</text></svg></span>C++</div>
+        <div class="skill"><span class="tile"><svg viewBox="0 0 48 48"><rect x="4" y="4" width="40" height="40" rx="3" fill="#f7df1e"/><text x="41" y="41" text-anchor="end" font-family="Arial,sans-serif" font-weight="700" font-size="20" fill="#222">JS</text></svg></span>JavaScript</div>
+        <div class="skill"><span class="tile"><svg viewBox="0 0 48 48"><text x="24" y="21" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="15" fill="#00b4d8">My</text><text x="24" y="39" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="17" fill="#f29111">SQL</text></svg></span>MySQL</div>
+        <div class="skill"><span class="tile"><svg viewBox="0 0 48 48"><path d="M6 3h36l-3.300 37L24 45 9.300 40z" fill="#e44d26"/><path d="M24 41.500l11.900-3.300 2.800-31.200H24z" fill="#f16529"/><text x="24" y="30" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="22" fill="#fff">5</text></svg></span>HTML5</div>
+        <div class="skill"><span class="tile"><svg viewBox="0 0 48 48"><path d="M6 3h36l-3.300 37L24 45 9.300 40z" fill="#1572b6"/><path d="M24 41.500l11.900-3.300 2.800-31.200H24z" fill="#33a9dc"/><text x="24" y="30" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="22" fill="#fff">3</text></svg></span>CSS3</div>
+        <div class="skill"><span class="tile"><svg viewBox="0 0 48 48"><path d="M16 4h8v12h-8a6 6 0 0 1 0-12z" fill="#f24e1e"/><path d="M24 4h8a6 6 0 0 1 0 12h-8z" fill="#ff7262"/><path d="M16 16h8v12h-8a6 6 0 0 1 0-12z" fill="#a259ff"/><circle cx="30" cy="22" r="6" fill="#1abcfe"/><path d="M16 28h8v6a6 6 0 1 1-8-5.600z" fill="#0acf83"/></svg></span>Figma</div>
+        <div class="skill"><span class="tile"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.2-3.4-1.2-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.7.4-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.7 1a9.4 9.4 0 0 1 5 0c1.9-1.3 2.7-1 2.7-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .4.3.7.9.7 1.8v2.7c0 .3.2.6.7.5A10 10 0 0 0 12 2z" fill="#fff"/></svg></span>GitHub</div>
+      </div>
+      <i class="star s-sk1" aria-hidden="true"></i>
+      <i class="star s-sk2" aria-hidden="true"></i>
+      <i class="star s-sk3" aria-hidden="true"></i>
+    </section>
+
+    <!-- ============ SERVIÇOS ============ -->
+    <section class="services reveal" id="servicos">
+      <div class="services-intro">
+        <h2 class="title"><i class="star-solid" aria-hidden="true"></i> Meus Serviços</h2>
+        <p>Ofereço soluções criativas e funcionais para transformar suas ideias em projetos incríveis:</p>
+        <a href="#contato" class="btn-dark">Ver mais detalhes
+          <svg viewBox="0 0 24 24" width="16" height="16"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <svg viewBox="0 0 48 48" class="card-icon"><rect x="8" y="9" width="32" height="22" rx="2.5" fill="none" stroke="#3d1457" stroke-width="2.2"/><path d="M3 38h42l-3 3H6z" fill="none" stroke="#3d1457" stroke-width="2.2" stroke-linejoin="round"/></svg>
+          <h3>Desenvolvimento Full Stack</h3>
+          <p>Front-end, back-end, APIs e banco de dados</p>
+        </article>
+        <article class="card">
+          <svg viewBox="0 0 48 48" class="card-icon"><path d="M17 14L7 24l10 10M31 14l10 10-10 10M27 9l-6 30" fill="none" stroke="#3d1457" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <h3>Front-end</h3>
+          <p>Interfaces responsivas e modernas</p>
+        </article>
+        <article class="card">
+          <svg viewBox="0 0 48 48" class="card-icon"><rect x="8" y="8" width="32" height="12" rx="3" fill="none" stroke="#3d1457" stroke-width="2.2"/><rect x="8" y="28" width="32" height="12" rx="3" fill="none" stroke="#3d1457" stroke-width="2.2"/><circle cx="15" cy="14" r="1.8" fill="#3d1457"/><circle cx="15" cy="34" r="1.8" fill="#3d1457"/></svg>
+          <h3>Back-end e APIs</h3>
+          <p>Lógica, integrações e banco de dados</p>
+        </article>
+        <article class="card">
+          <svg viewBox="0 0 48 48" class="card-icon"><path d="M24 5a13 13 0 0 0-7 24v5h14v-5A13 13 0 0 0 24 5z" fill="none" stroke="#3d1457" stroke-width="2.2" stroke-linejoin="round"/><path d="M18 39h12M20 43h8M24 14v10" stroke="#3d1457" stroke-width="2.2" stroke-linecap="round"/></svg>
+          <h3>Consultoria Tech</h3>
+          <p>Ideias e soluções para o seu projeto</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer" id="contato">
+    <a href="#inicio" class="brand">
+      <span class="spark spark-gold" aria-hidden="true"></span>
+      <span class="brand-name">Alvani Alves<br />Santana</span>
+    </a>
+
+    <div class="footer-cta">
+      <span>Vamos criar algo incrível juntos?</span>
+      <a href="mailto:contato@exemplo.com" class="btn-outline-gold">
+        <svg viewBox="0 0 24 24" width="20" height="20"><rect x="2.5" y="5" width="19" height="14" rx="2" fill="currentColor"/><path d="M3 7l9 6 9-6" fill="none" stroke="#2a0f3f" stroke-width="1.8"/></svg>
+        Entre em contato
+      </a>
+    </div>
+
+    <div class="socials">
+      <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.2-3.4-1.2-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.7.4-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.300.1-2.700 0 0 .8-.3 2.700 1a9.400 9.400 0 0 1 5 0c1.900-1.300 2.700-1 2.700-1 .5 1.400.2 2.400.1 2.700.6.700 1 1.600 1 2.700 0 3.900-2.400 4.700-4.600 5 .4.300.7.900.7 1.800v2.700c0 .3.2.6.700.5A10 10 0 0 0 12 2z"/></svg>
+      </a>
+      <a href="https://instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><rect x="3.500" y="3.500" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.200" cy="6.800" r="1" fill="currentColor" stroke="none"/></svg>
+      </a>
+      <a href="https://youtube.com/" target="_blank" rel="noopener" aria-label="YouTube">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M21.600 7.200a2.500 2.500 0 0 0-1.800-1.800C18.200 5 12 5 12 5s-6.200 0-7.800.4A2.500 2.500 0 0 0 2.400 7.200C2 8.800 2 12 2 12s0 3.200.4 4.800a2.500 2.500 0 0 0 1.800 1.800C5.800 19 12 19 12 19s6.200 0 7.800-.4a2.500 2.500 0 0 0 1.800-1.800c.4-1.600.4-4.800.4-4.800s0-3.200-.4-4.800zM10 15V9l5.200 3z"/></svg>
+      </a>
+      <a href="https://linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M4.900 3.500a1.900 1.900 0 1 1 0 3.800 1.900 1.900 0 0 1 0-3.800zM3.300 9h3.300v11.500H3.300zM9 9h3.100v1.600c.5-.9 1.600-1.900 3.400-1.900 3.500 0 4.100 2.300 4.100 5.300v6.500h-3.300v-5.800c0-1.400 0-3.100-1.900-3.100s-2.200 1.500-2.200 3v5.900H9z"/></svg>
+      </a>
+      <i class="spark spark-gold small" aria-hidden="true"></i>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
